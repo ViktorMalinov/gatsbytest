@@ -2,6 +2,7 @@
 import * as React from "react";
 import Layout from "../components/layout";
 import { StaticImage } from "gatsby-plugin-image";
+import RUTest from "../components/react-use-test";
 
 // Step 2: Define your component
 const IndexPage = () => {
@@ -12,6 +13,8 @@ const IndexPage = () => {
         alt="Clifford, a reddish-brown pitbull, posing on a couch and looking stoically at the camera"
         src="../images/bruce-lee.jpg"
       />
+
+      <RUTest />
     </Layout>
 
     // <main>
